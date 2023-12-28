@@ -1,0 +1,59 @@
+.main-div {
+    display: flex;
+    padding-top: 2rem;
+}
+.product-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-input {
+    border: 2px solid transparent;
+    width: 15em;
+    height: 2.5em;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    transition: all 0.3s;
+    margin: 0.5rem;
+}
+
+.product-input:hover,
+.product-input:focus {
+    border: 2px solid #4A9DEC;
+    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+    background-color: white;
+}  
+
+.description {
+    width: 20rem;
+    height: 5rem;
+}
+
+.label {
+    margin: 2rem 0;
+}
+
+.sell-btn {
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(75, 85, 226);
+    background-color: rgb(218, 218, 255);
+    color: blue;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.sell-btn:hover {
+    background-color: rgb(75, 85, 226);
+    color: white;
+}
+
+.btn-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
