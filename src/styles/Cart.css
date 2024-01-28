@@ -1,0 +1,147 @@
+.no-products {
+    position: fixed;
+    left: 37%;
+    top: 45%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.the-main-cart {
+    display: flex;
+    border: 1px solid blue;
+    align-items: center;
+    border-radius: 0.3rem;
+    box-shadow: 0.5rem 0.5rem 1rem blue;
+    justify-content: space-between;
+    width: 40%;
+    height: 18rem;
+    padding: 0 1rem;
+    margin: 1rem;
+}
+
+.the-picture {
+    width: 15rem;
+}
+
+.image {
+    display: flex;
+}
+.main-cart-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.info-dive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: blue;
+}
+
+.remove-btn {
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(75, 85, 226);
+    background-color: rgb(218, 218, 255);
+    color: blue;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.remove-btn:hover {
+    background-color: rgb(75, 85, 226);
+    color: white;
+}
+
+p{
+    color: grey;
+}
+
+.cart-main {
+    display: flex;
+}
+
+.check-out {
+    background-color: rgb(75, 85, 226);
+    position: fixed;
+    right: 0;
+    width: 18%;
+    height: 86.4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    overflow-y: auto;
+}
+
+.cart-prices {
+    display: flex;
+    align-items: center;
+    background-color: rgb(100, 109, 233);
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    margin: 0.3rem;
+    width: 87%;
+    justify-content: space-between;
+}
+
+.item-price {
+    background-color: rgb(123, 131, 235);
+    border-radius: 0.4rem;
+    padding: 0 0.2rem;
+}
+
+.total {
+    background-color: rgb(123, 131, 235);
+    padding: 0.1rem 0.5rem;
+    border-radius: 0.3rem;
+    margin: 0.6rem 0;
+}
+
+.checkout{
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #2ba8fb;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    cursor: pointer;
+}
+.checkout:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+}
+.checkout:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+.no-items {
+    color: black;
+    position: fixed;
+    top: 42%;
+    left: 38%;
+}
+
+.name {
+    font-size: 1.7rem;
+}
+
+.product-descriptions {
+    color: blue;
+    font-size: 0.82rem;
+    font-weight: 500;
+}

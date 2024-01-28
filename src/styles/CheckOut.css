@@ -1,0 +1,94 @@
+.main-checkout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.fe {
+    border: 1px solid black;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+}
+
+.sign-container {
+    width: 40rem;
+}
+
+.flex {
+    display: flex;
+    width: 9.5rem;
+    margin: 1rem 0;
+    font-size: larger;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.check-input-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.check-label {
+    color: rgba(0, 0, 0, 0.605);
+    margin-left: 0.6rem;
+}
+
+.check-input {
+    width: 20rem;
+    background: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-shadow: #cff0ff 0px 10px 10px -5px;
+    border-inline: 2px solid transparent;
+}
+.check-input::-moz-placeholder {
+    color: rgb(170, 170, 170);
+}
+.check-input::placeholder {
+    color: rgb(170, 170, 170);
+}
+.check-input:focus {
+    outline: none;
+    border-inline: 2px solid #12B1D1;
+}
+
+.input-extra {
+    width: 5rem;
+    background: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-top: 5px;
+    border-inline: 2px solid transparent;
+    margin-bottom: 15px;
+    box-shadow: #cff0ff 0px 10px 10px -5px;
+}
+.input-extra::-moz-placeholder {
+    color: rgb(170, 170, 170);
+}
+.input-extra::placeholder {
+    color: rgb(170, 170, 170);
+}
+.input-extra:focus {
+    outline: none;
+    border-inline: 2px solid #12B1D1;
+}
+
+.middle-check {
+    display: flex;
+}
+
+.check-text {
+    font-weight: 400;
+}
+.check-header {
+    font-size: 1.63rem;
+}
+
+.extra {
+    width: 5rem;
+    margin: 0;
+}
